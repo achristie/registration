@@ -8,9 +8,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Match exactly pattern='/' component={Choice} />
-        <Match pattern='/register' component={Register} />
-        <Match pattern='/signin' component={Signin} />
+        <div>
+          <Match exactly pattern='/' component={Choice} />
+          <Match pattern='/register' component={Register} />
+          <Match pattern='/signin' component={Signin} />
+        </div>
       </Router>
     );
   }

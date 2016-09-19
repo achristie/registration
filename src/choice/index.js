@@ -4,9 +4,16 @@ import styles from './styles.css';
 
 const Choice = () => {
     return (
-        <div className={[styles.margin, 'ipreo-row'].join(' ')}>
-            <Card title='Existing Users' text='Sign in here...'/>
-            <Card title='New Users' text='Register here'/>
+        <div className='container'>
+            <div className='row'>
+                <div className='col-xs-4 col-xs-push-1'>
+                    <Card title='Existing Users' text='Sign in here...' link='/signin'/>
+                </div>
+                <div className='col-xs-2'/>
+                <div className='col-xs-4 col-xs-push-1'>
+                    <Card title='New Users' text='Register here' link='/register'/>
+                </div>
+            </div>
         </div>
     );
 };

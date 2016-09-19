@@ -1,18 +1,18 @@
 import React from 'react';
-import styles from './styles.css';
+import { Link } from 'react-router';
 
 const Card = (props) => {
     return (
-        <div className={['ipreo-col ipreo-sm ipreo-flex-align-stretched', styles.click].join(' ')}>
-            <div className='ipreo-card'>
-                <div className='ipreo-card-header'>
-                    {props.title}
+        <Link to={props.link}>
+            <div className='panel panel-default'>
+                <div className='panel-heading'>
+                    <h3 className='panel-title'>{props.title}</h3>
                 </div>
-                <div className='ipreo-card-block'>
+                <div className='panel-body'>
                     {props.text}
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 
