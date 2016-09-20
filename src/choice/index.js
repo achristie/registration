@@ -1,12 +1,11 @@
 import React from 'react';
-import CardContainer from './container.js';
-import styles from './styles.css';
-import Logo from '../logo.svg';
+import CardContainer from './container';
+import Brand from './brand';
 
 const Choice = () => {
     return (
         <div>
-            <Logo />
+            <Brand />
             <CardContainer />
         </div>
     );
