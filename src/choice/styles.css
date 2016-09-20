@@ -1,1 +1,41 @@
-.margin { margin-top: 200px; }
+
+.card {
+    padding: 15px;
+    height: 150px;
+    width: 200px;
+    background: cornflowerblue;
+    color: white;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+}
+
+.card:hover { transform: scale(1.1); }
+
+.card h3 {
+    margin: 0;
+    text-decoration: none;
+}
+
+.card h3:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separator {
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+}
+
+.line {
+    width: 3px;
+    background-color: silver;
+    height: 80px;
+    margin-left: 49px;
+    display: inline-block;
+}

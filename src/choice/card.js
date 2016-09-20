@@ -1,16 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router';
+import styles from './styles.css';
 
 const Card = (props) => {
     return (
         <Link to={props.link}>
-            <div className='panel panel-default'>
-                <div className='panel-heading'>
-                    <h3 className='panel-title'>{props.title}</h3>
-                </div>
-                <div className='panel-body'>
-                    {props.text}
-                </div>
+            <div className={styles.card}>
+                <h3>{props.title}</h3>
             </div>
         </Link>
     );
