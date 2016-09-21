@@ -1,0 +1,22 @@
+.registration {
+  height: 150px;
+  display: inline-block;
+}
+
+.registration span {
+  font-size: 70px;
+  vertical-align: middle;
+}
+
+.margin {
+  margin-bottom: 15px;
+}
+
+.width {
+  max-width: 900px;
+}
+/*
+Monday: Protein Shake, Chicken, Chipotle, nuts
+Tuesday: Salmon, Sopresatta & Mozzerella, Protein Shake, nuts
+
+*/

@@ -3,7 +3,7 @@
     padding: 15px;
     height: 150px;
     width: 200px;
-    background: cornflowerblue;
+    background: rgb(0, 112, 191);
     color: white;
     transition: all .2s ease-in-out;
     display: inline-block;
